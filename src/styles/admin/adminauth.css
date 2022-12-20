@@ -1,0 +1,360 @@
+.title {
+  color: #101010;
+  font-size: 40px;
+  font-weight: 700;
+}
+option:first-of-type {
+  color: red !important;
+}
+.admin-text {
+  font-size: 16px !important;
+  color: #565656;
+}
+.terms-text {
+  color: #3bb777 !important;
+  font-size: 17px;
+}
+
+.form-check {
+  padding-left: 0rem !important;
+}
+
+/* bc-login */
+
+Link:hover {
+  text-decoration: none !important;
+}
+.login-text {
+  font-size: 16px;
+}
+.bc-login-btn {
+  background: #101010;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+}
+.bc-login-btn:hover {
+  background-color: #101010 !important;
+}
+
+.admin-input {
+  border-radius: 10px;
+  border: 1px solid #565656;
+}
+.otp-field {
+  margin: 0.3rem !important;
+}
+@media only screen and (max-width: 492px) {
+  .logo-about-title {
+    padding-top: 2rem;
+  }
+  .box-img {
+    bottom: -2rem;
+  }
+  .otp-field {
+    margin: 0.1rem !important;
+  }
+  .admin-box-wrapper {
+    /* display: none; */
+    margin: 0px !important;
+    position: absolute;
+    bottom: -3rem !important;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px 1px #888888;
+    width: 90% !important;
+  }
+  .auth-heading {
+    padding-top: 6rem !important;
+  }
+  .second-box {
+    display: none !important;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  #signupbtn {
+    flex-direction: column;
+  }
+
+  .bc-login-btn {
+    flex: 1;
+  }
+}
+.admin-box-wrapper {
+  margin: 0px 15px;
+  position: absolute;
+  bottom: 4rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 1px #888888;
+  width: 60%;
+}
+.second-box {
+  /* margin: 0px 15px; */
+  position: absolute;
+  align-items: center;
+  bottom: -0.5rem;
+  /* background: white; */
+  /* border-radius: 20px; */
+  /* box-shadow: 1px 1px 8px 1px #888888; */
+  padding: 1.5rem 1rem;
+  width: 100%;
+}
+.admin-slidez {
+  border-top: 9px solid #3bb777;
+  border-width: 3px !important;
+  margin-right: 1rem;
+  width: 65px;
+}
+.admin-slidey {
+  border-top: 9px solid white;
+  border-width: 3px !important;
+  margin-right: 1rem;
+  width: 65px;
+}
+.admin-slides {
+  border-top: 9px solid white;
+  border-width: 3px;
+  width: 65px;
+}
+.collection-link {
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* 992 1200 */
+
+@media only screen and (max-width: 1200px) {
+  .admin-box-wrapper {
+    width: 70%;
+  }
+}
+.admin-btn {
+  background-color: #3dc67e;
+  color: #101010;
+  font-weight: bold;
+}
+.admin-btn:hover {
+  font-weight: unset;
+}
+
+/* about admin  */
+
+.about-slidex {
+  border-top: 9px solid #3ab777;
+  border-width: 3px;
+  width: 33%;
+}
+.about-slidey {
+  border-top: 9px solid black;
+  border-width: 3px;
+  width: 33%;
+}
+@media only screen and (max-width: 768px) {
+  .business-input {
+    width: 100% !important;
+  }
+
+  .radio-style {
+    flex-direction: column;
+  }
+  .first-radio,
+  .second-radio {
+    margin-bottom: 1rem;
+    margin-right: unset !important;
+  }
+}
+.select-logo {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #000000;
+}
+select {
+  height: 41px !important;
+  font-size: 16px !important;
+
+  border-radius: 10px !important;
+}
+@media only screen and (max-width: 592px) {
+  .divide-row {
+    margin-top: 0rem !important;
+    flex-direction: column-reverse;
+  }
+
+  .auth-btns {
+    padding-top: 1rem;
+  }
+}
+.business-input {
+  width: 50%;
+}
+
+auth-img {
+  position: relative;
+}
+.box-img {
+  position: absolute;
+  bottom: -4rem;
+  left: -2rem;
+  width: 100%;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .box-img {
+    bottom: -2rem;
+  }
+  .auth-label {
+    padding-top: unset !important;
+  }
+  .login-section-second {
+    padding-top: unset !important;
+  }
+}
+.radio-about {
+  font-size: 15px !important;
+  height: 41px;
+  border-radius: 10px !important;
+  padding-left: 14px;
+  padding-right: 14px;
+  color: #000000 !important;
+}
+.upload-brandlogo {
+  height: 200px;
+
+  width: 200px;
+}
+.desc-light {
+  color: #999999;
+  font-size: 16px;
+}
+.handle-adminlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px !important;
+  height: 41px;
+  border-radius: 10px !important;
+  border: 1px dashed #000000;
+  height: 111px;
+  cursor: pointer;
+  background: white;
+  flex-direction: column;
+}
+
+.admin-border {
+  border: 1px solid #000000;
+}
+.handle-firstlogo {
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px !important;
+  border: 2px dashed #999999;
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+}
+@media only screen and (max-width: 592px) {
+  .handle-section {
+    flex-direction: column-reverse;
+    align-items: unset !important;
+  }
+  .logo-text {
+    padding-left: unset !important;
+  }
+}
+
+.background-light {
+  background: #f3f3f3;
+  border-radius: 20px;
+}
+.brand-logo {
+  border-radius: 80px;
+  /* display: flex; */
+
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.title {
+  color: #3bb777;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 16px !important;
+}
+.terms-text {
+  color: #3bb777 !important;
+  font-size: 17px;
+}
+
+.form-check {
+  padding-left: 0rem !important;
+}
+.register-text {
+  font-size: 15px;
+}
+.register-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 5px 28px;
+  font-size: 20px;
+}
+.register-btn:hover {
+  background-color: #101010 !important;
+}
+
+.register-btndisable {
+  background: grey !important;
+  border: none !important;
+  padding: 5px 28px;
+  font-size: 18px;
+}
+.register-btndisable:hover {
+  background: grey !important;
+  border: none !important;
+}
+.register-img {
+  width: 100%;
+}
+
+/* media query */
+@media (max-width: 990px) and (min-width: 768px) {
+  .register-img {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 990px) {
+  .register-img {
+    margin-bottom: 2rem;
+  }
+}
+
+/* verify email */
+
+.verifyemail-text {
+  font-size: 16px;
+}
+.verifyemail-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 11px 49px;
+  font-size: 18px;
+}
+.verifyemail-section-second {
+  padding-top: 3rem;
+  /* padding-left: 58px;
+  padding-right: 58px; */
+}
+.forgot-desc {
+  font-size: 16px !important;
+}

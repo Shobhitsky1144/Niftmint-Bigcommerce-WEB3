@@ -1,0 +1,21 @@
+.vertical-link ul {
+  list-style: none;
+  font-size: 20px;
+  padding: unset !important;
+}
+
+.vertical-link ul li {
+  padding-bottom: 1rem;
+}
+.vertical-link ul li .active {
+  color: #7bd7ab !important;
+}
+.vertical-link ul li .navss-link {
+  color: black;
+  font-weight: bold;
+}
+.disable-link {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}

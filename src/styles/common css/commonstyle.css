@@ -1,0 +1,372 @@
+body {
+  /* font-family: "Crimson Pro", serif; */
+  font-family: "Urbanist", sans-serif;
+  /* font-size: 20px; */
+}
+:root {
+  --buttonColor: #3dc67e;
+}
+
+.pp {
+  text-transform: capitalize !important;
+}
+p {
+  font-size: 18px;
+}
+.common-link {
+  color: inherit !important;
+}
+.common-link:hover {
+  color: #3bb777 !important;
+  text-decoration: none !important;
+}
+Link:hover {
+  text-decoration: none !important;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}
+
+.gif {
+  border-radius: 20px;
+}
+
+/* Button & input ,textarea style  */
+
+button:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+input:focus {
+  /* border: none !important; */
+  box-shadow: none !important;
+  border: 1px solid lightgray !important;
+}
+
+input {
+  font-size: 15px !important;
+  height: 41px;
+  border-radius: 10px !important;
+}
+
+/* common button css  */
+.common-btn {
+  background-color: #3bb777;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.common-btn:hover {
+  background-color: #101010 !important;
+  color: white !important;
+}
+
+button {
+  /* font-weight: 600; */
+  font-size: 19px;
+}
+button:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+.nft-btn:hover {
+  background-color: #101010;
+}
+
+textarea:focus {
+  /* border: none !important; */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* end button & input css */
+
+/* labels style  */
+
+.home-labels {
+  font-size: 20px;
+  color: #101010;
+  font-weight: bold;
+}
+.forms-labelss {
+  font-size: 15px;
+  font-weight: bold;
+  color: #101010;
+}
+.forms-labels {
+  /* font-size: 17px; */
+  color: #3bb777;
+
+  font-family: Urbanist;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  /* font-weight: 600; */
+}
+
+/* end label style  */
+
+/* dialog box CSS */
+.MuiDialogContent-dividers {
+  padding: 0px !important;
+  border: 0 !important;
+  padding-left: 27px !important;
+  padding-right: 27px !important;
+  /* padding-bottom: 10px !important; */
+}
+.MuiDialogActions-spacing {
+  padding: 16px 24px !important;
+}
+.closeicon {
+  padding-right: 13px !important;
+}
+.MuiIconButton-sizeMedium {
+  /* padding-right: 16px !important; */
+  right: 17px !important;
+}
+.MuiTypography-body1 {
+  padding-left: 3px !important;
+}
+
+.dialog-btn {
+  background-color: #101010 !important;
+  border: none !important;
+  padding: 5px 28px !important;
+  font-size: 18px !important;
+  color: white !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* DIALOG BOX CSS END  */
+
+/* common-row */
+.common-row {
+  padding-bottom: 2rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
+  padding-top: 2rem;
+}
+
+/* common css .join-telegram */
+
+.join-telegram-parent {
+  padding-right: 17px;
+}
+
+@media only screen and (max-width: 592px) {
+  .container,
+  .complete-account-row,
+  .userbio-account-row,
+  .forget-common-parent {
+    width: 92%;
+    box-shadow: none !important;
+  }
+  /* forget password css  */
+  .forget-common-parent {
+    padding: 0px 9px !important;
+  }
+  /* .common-forget-row {
+    margin: 3rem 0px 0px 0px !important;
+    padding: 0.2px !important;
+  } */
+  .complete-account-row {
+    padding: 0 !important;
+  }
+  /* error pagev css  */
+  .error-text {
+    font-size: 100px !important;
+  }
+  .complete-account-btn,
+  .userbio-account-btn {
+    width: 100%;
+    margin: 8px 0px;
+  }
+  /* .mobile-logo {
+    height: 1.5rem !important;
+  } */
+  .join-telegram {
+    font-size: 17px;
+  }
+  .header-btn {
+    padding: 5px 16px;
+  }
+
+  .nftBox {
+    padding: 11px 23px !important;
+  }
+  .nft-btn {
+    padding: 5px 16px !important;
+  }
+  .video-section {
+    border-bottom: 1px solid #f3f3f3;
+  }
+  .home-section-second {
+    padding-top: 2rem !important;
+    padding-left: 2rem !important;
+  }
+  .common-row {
+    padding-bottom: 1rem !important;
+    padding-left: 0 !important;
+    padding-right: 0rem !important;
+    padding-top: 1rem !important;
+  }
+
+  .common-btn {
+    width: 100%;
+  }
+
+  .divide-row {
+    display: block;
+  }
+  .register-btn-section {
+    display: flex;
+  }
+  .register-btn {
+    flex: 1 !important;
+  }
+  .register-btndisable {
+    flex: 1 !important;
+  }
+  .login-btn-section {
+    display: flex;
+  }
+  .login-btn {
+    flex: 1 !important;
+  }
+  .verifybtn-section {
+    display: flex;
+    /* width: 0% !important; */
+  }
+  .verifyemail-btn {
+    flex: 1 !important;
+  }
+}
+
+.notready {
+  display: none;
+}
+
+.ready {
+  display: block;
+}
+.MuiDialog-paperWidthSm {
+  margin: 12px !important;
+}
+.cursor-unset {
+  cursor: unset !important;
+}
+.MuiIconButton-edgeStart:hover {
+  background: transparent !important;
+}
+.swal-button--confirm {
+  background: #3dc67e;
+  color: #101010;
+  font-weight: bold;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.swal-button--confirm:hover {
+  background: #3dc67e !important;
+  color: #101010;
+}
+.swal-button--cancel {
+  color: #101010;
+  font-weight: bold;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.swal-icon--warning {
+  border-color: #3dc67e !important;
+}
+.swal-icon--warning__body,
+.swal-icon--warning__dot {
+  background: #3dc67e !important;
+}
+.swal-icon--success__line {
+  background: #3dc67e !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.admin-container {
+  margin-top: 9rem;
+  margin-bottom: 6rem;
+}
+.break-word {
+  word-break: break-word;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.border-radius-20 {
+  border-radius: 20px;
+}
+.common-color {
+  color: #3dc67e;
+}
+.bigco-nav-text {
+  font-size: 19px;
+}
+
+.common-color {
+  color: var(--buttonColor);
+}
+.blk-btn {
+  background: linear-gradient(
+      0deg,
+      rgba(16, 16, 16, 0.56),
+      rgba(16, 16, 16, 0.56)
+    ),
+    #7bd7ab;
+  color: #101010;
+  font-weight: bold;
+  border: none;
+  padding: 5px 28px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.word-break {
+  word-break: break-word;
+}
+.complete-account-btn {
+  background-color: #3bb777;
+  border: none;
+  font-size: 18px;
+  padding: 5px 28px;
+}
+.bigco-btn {
+  background-color: var(--buttonColor);
+  border: none;
+  color: #101010;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* nft box */
+.buy-now-box,
+.collection-box {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 1px #888;
+  margin: 0 26px;
+  position: relative;
+}

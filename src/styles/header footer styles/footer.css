@@ -1,0 +1,227 @@
+/* header */
+.headerDiv {
+  margin: 14px 44px;
+}
+.header-btn {
+  background: #3bb777;
+  color: white;
+  padding: 5px 28px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+.transfer-chat-btn {
+  background: #3bb777;
+  color: white;
+  padding: 5px 28px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+.transfer-chat-btn:hover {
+  background: #101010 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.chat-btn {
+  background: #3bb777;
+  color: white;
+  padding: 5px 41.5px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+.chat-btn:hover {
+  background: #101010 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.header-btn:hover {
+  background: #101010 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.join-telegram {
+  color: #101010 !important;
+
+  text-transform: uppercase !important;
+
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.menu-text {
+  color: #3bb777 !important;
+}
+
+/* footer */
+
+.parent {
+  background-color: #101010;
+
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.footer-content {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+}
+
+.footer-link:hover {
+  text-decoration: none !important;
+}
+footer-text {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+
+  color: #3bb777;
+}
+.upper-section div {
+  padding-top: 1rem;
+
+  font-size: 14px;
+}
+.common-div {
+  margin-right: 14px;
+}
+.footer-img {
+  height: 33px;
+  width: 126px;
+}
+.bottom-text {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+@media only screen and (max-width: 990px) {
+  .parent-sections {
+    padding: 0;
+  }
+  .first-section {
+    text-align: left;
+  }
+
+  .upper-section div {
+    font-size: 14px;
+  }
+  .footer-logo {
+    justify-content: center !important;
+    padding-top: 1rem;
+  }
+  .bottom-text {
+    padding-top: 2rem;
+  }
+}
+
+/* media-query */
+/* header css */
+@media only screen and (max-width: 635px) {
+  .headerDiv {
+    margin: 14px 12px;
+  }
+}
+
+/* footer css media query */
+@media only screen and (max-width: 768px) {
+  .upper-section {
+    text-align: left;
+
+    justify-content: flex-start !important;
+  }
+  .social-container {
+    justify-content: center !important;
+    margin-top: 1.7rem !important;
+  }
+  .social-row {
+    margin-bottom: 0rem !important;
+    cursor: pointer;
+  }
+  .social-image img {
+    cursor: pointer;
+  }
+  .img-row {
+    justify-content: center !important;
+  }
+  .bottom-text {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 408px) {
+  .headerDiv {
+    margin: 10px 4px;
+  }
+
+  .upper-section div {
+    font-size: 9px;
+  }
+  .join-telegram-parent {
+    padding-right: 9px !important;
+  }
+  .join-telegram {
+    font-size: 12px !important;
+  }
+  .footer-content {
+    font-size: 29px;
+    line-height: 39px;
+  }
+  .mobile-logo {
+    height: 1.4rem !important;
+  }
+  .header-btn {
+    padding: 5px 9px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  /* popup hedaer  */
+  .popup-username {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .foot {
+    font-size: 1.6rem !important;
+  }
+}
+@media (min-width: 408px) and (max-width: 480px) {
+  .mobile-logo {
+    height: 1.5rem !important;
+  }
+}
+
+@media (min-width: 409px) and (max-width: 492px) {
+  .upper-section div {
+    font-size: 11px !important;
+  }
+}
+.common-div a:hover {
+  color: #3bb777 !important;
+}
+.term a:hover {
+  color: #3bb777 !important;
+}
+@media (min-width: 409px) and (max-width: 500px) {
+  .join-telegram-parent {
+    padding-right: 9px !important;
+  }
+  .join-telegram {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .foot {
+    font-size: 27px;
+  }
+}

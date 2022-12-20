@@ -1,0 +1,93 @@
+.create-nft-select-tag {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.create-nft-select-tag:focus {
+  border: 1px solid #ced4da !important;
+}
+
+.css-1mi5kr7-MuiSwitch-root {
+  margin: 0 !important;
+}
+.css-j204z7-MuiFormControlLabel-root {
+  margin-right: 0 !important;
+}
+
+.drag-parent {
+  height: 250px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+@media only Screen and (max-width: 1200px) {
+  .select-parent {
+    margin-right: 4px;
+  }
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+.delete-icon:hover {
+  color: red;
+}
+
+.create-nft-text {
+  font-size: 16px;
+  color: #565656;
+}
+
+.require-icon {
+  color: red;
+}
+
+@media only Screen and (max-width: 492px) {
+  .MuiDialog-paperWidthSm {
+    margin: unset !important;
+  }
+}
+.popup-btns {
+  border: 1.5px solid #565656;
+  border-radius: 10px;
+  padding: 5px 28px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.admin-green-btn {
+  background: #61b57c;
+}
+.popup-btns:hover {
+  background-color: #000000 !important;
+  color: #fff;
+}
+.admin-green-btn:hover {
+  color: #fff !important;
+}
+.popup-light-btn:focus {
+  border: 1.5px solid #565656 !important;
+  background-color: white !important;
+  color: #000000 !important;
+}
+.create-collection-btn {
+  min-width: 200px;
+  justify-content: flex-end;
+}
+
+@media only Screen and (max-width: 592px) {
+  .handle-collection-table {
+    flex-direction: column;
+  }
+  .handle-collection-table > div {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+  .create-collection-btn {
+    justify-content: unset;
+    width: 100%;
+  }
+  .create-collection-btn > button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,92 @@
+.buy-admin-box {
+  right: 12px;
+  left: 12px;
+  position: absolute;
+  bottom: -6rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 8px 1px #888888;
+}
+.admin-dashboard-img {
+  width: 100%;
+  border-radius: 20px;
+  height: 380px;
+}
+
+@media only screen and (max-width: 592px) {
+  .first-container {
+    padding: 0px !important;
+  }
+}
+
+.item-div {
+  width: 100%;
+}
+
+.admin-logo {
+  width: 58px;
+  height: 69px;
+}
+.admin-img-parent {
+  border-radius: 148px;
+  padding: 31px 40px;
+  background: white;
+  box-sizing: 2px 2px 2px;
+  box-shadow: 1px 1px 34px #888888;
+}
+@media only screen and (max-width: 768px) {
+  .item-div {
+    flex-direction: column;
+    align-items: normal !important;
+  }
+  .create-item-btn {
+    margin: 15px 0px 15px 0px;
+  }
+  .admin-dashboard-img {
+    width: 100%;
+    border-radius: 20px;
+    height: unset;
+  }
+}
+
+.cover-background {
+  background: linear-gradient(
+    180deg,
+    #61a1b5 -8.37%,
+    rgba(97, 161, 181, 0) 100%
+  );
+}
+@media only screen and (max-width: 768px) {
+  .item-container {
+    width: 100% !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: unset !important;
+    margin-top: 3rem !important;
+  }
+  .handle-items {
+    flex-direction: column;
+  }
+  .dropdown-child {
+    padding-top: 1.6rem;
+  }
+}
+
+.create-mint-btn {
+  min-width: 117px;
+  justify-content: flex-end;
+}
+
+#mint-btn {
+  min-width: 147px;
+}
+
+/* craete nft */
+@media only screen and (min-width: 992px) {
+  .ml-lg-10,
+  .mx-lg-10 {
+    margin-left: 11rem !important;
+  }
+}

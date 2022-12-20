@@ -1,0 +1,37 @@
+.MuiListItemIcon-root {
+  color: rgba(0, 0, 0, 0.54);
+  display: inline-flex;
+  min-width: 56px;
+  flex-shrink: 0;
+  padding-left: 21px;
+}
+body {
+  font-family: "Urbanist", sans-serif !important;
+}
+#active {
+  background: #3dc67e;
+  color: white;
+  border-radius: 100px 0px 0px 100px;
+  padding-right: 23px;
+  padding-left: 1px !important;
+  height: 35px;
+  padding: 3px -8px;
+}
+#active img {
+  filter: grayscale(1) invert(1);
+}
+
+@media only screen and (max-width: 492px) {
+  .handle-nav {
+    padding: unset !important;
+  }
+  .bell-icon {
+    padding-right: unset !important;
+  }
+  #icon {
+    margin-right: unset !important;
+  }
+}
+#icon {
+  margin-right: 10px;
+}

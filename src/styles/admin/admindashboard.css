@@ -1,0 +1,44 @@
+.bigco-parent {
+  box-shadow: 1px 1px 8px 1px #888888;
+
+  border-radius: 8px;
+}
+.bigco-child {
+  padding: 23px 10px;
+  text-align: right;
+}
+.Link-title {
+  font-size: 21px;
+  font-weight: bold;
+  color: #212427;
+}
+
+/* product */
+
+.product-parent {
+  border-radius: 10px;
+  border: 1px solid #adadad !important;
+}
+.search-product-btn {
+  background-color: #fff;
+  color: #3bb777;
+  border-right: 0.5px solid #adadad !important ;
+  border-radius: 10px;
+}
+.search-product-btn:hover {
+  background-color: #3bb777;
+  color: #fff;
+  border: none !important;
+}
+.product-input {
+  height: 41px;
+}
+.product-input:focus {
+  height: 41px;
+  border: none !important;
+  outline: none !important;
+}
+
+.edit-collection:hover {
+  color: black !important;
+}
